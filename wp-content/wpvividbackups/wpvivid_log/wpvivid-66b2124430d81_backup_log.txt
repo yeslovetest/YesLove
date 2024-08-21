@@ -1,0 +1,324 @@
+Log created: 2024-08-06 13:08:36
+Type: backup
+[2024-08-06 13:08:38][notice]Start backing up.
+[2024-08-06 13:08:38][notice]server info fcgi:Off max execution time: 300 wp version:6.4.5 php version:8.1.29 db version:8.0.37 php ini:safe_mode: memory_limit:256M memory_get_usage:63.03 MB memory_get_peak_usage:64.64 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-08-06 13:08:38][notice]LiteSpeed Server.
+[2024-08-06 13:08:38][notice]Add LiteSpeed Rule
+[2024-08-06 13:08:38][notice]Prepare to backup backup_db files.
+[2024-08-06 13:08:38][notice]Start exporting database.
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_bm_guests
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_bm_mentions
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_bm_threads
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_ff_scheduled_actions
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_fluentform_entry_details
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_fluentform_form_analytics
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_fluentform_form_meta
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_fluentform_forms
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_fluentform_logs
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_fluentform_submission_meta
+[2024-08-06 13:08:38][notice]Preparing to dump table wpzo_fluentform_submissions
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_login_redirects
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_mailpoet_automation_triggers
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_mailpoet_automations
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_mailpoet_forms
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_mailpoet_statistics_bounces
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_mpp_logs
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_nextend2_smartslider3_generators
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_rt_rtm_api
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_rt_rtm_media_interaction
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_rt_rtm_media_meta
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_rtreact_activity_user_reaction
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_rtreact_comment
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_rtreact_post
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_rtreact_reaction
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wc_category_lookup
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wc_reserved_stock
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_woocommerce_shipping_zone_methods
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_woocommerce_shipping_zones
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wpda_csv_uploads
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wpda_logging
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wpda_media
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wpda_menus
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wpda_project_table
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wpda_table_design
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wpda_table_settings
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wpfm_backup
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wpmailsmtp_tasks_meta
+[2024-08-06 13:08:39][notice]Preparing to dump table wpzo_wppcp_group_users
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_wppcp_private_page
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_youzify_activity_polls_votes
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_youzify_bookmarks
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_youzify_hashtags
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_youzify_hashtags_items
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_youzify_media
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_youzify_reviews
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_youzify_social_login_users
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_actionscheduler_claims
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_actionscheduler_groups
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_bm_moderation
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_bm_user_roles_index
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_bp_messages_notices
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_bp_xprofile_groups
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_e_events
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_links
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_automation_versions
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_custom_fields
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_dynamic_segment_filters
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_feature_flags
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_migrations
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_newsletter_option
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_newsletter_option_fields
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_newsletter_posts
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_newsletter_segment
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_settings
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_statistics_forms
+[2024-08-06 13:08:40][notice]Preparing to dump table wpzo_mailpoet_subscriber_custom_field
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_mailpoet_subscriber_ips
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_mailpoet_tags
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_mailpoet_user_agents
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_mailpoet_user_flags
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_nextend2_image_storage
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_nextend2_smartslider3_sliders_xref
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_tec_events
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_tm_tasks
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_wc_product_attributes_lookup
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_wc_product_download_directories
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_wc_rate_limits
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_wc_tax_rate_classes
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_wc_webhooks
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_woocommerce_attribute_taxonomies
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_woocommerce_log
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_woocommerce_order_items
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_woocommerce_payment_tokens
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_woocommerce_sessions
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_wpda_project
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_wpda_project_page
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_wpda_publisher
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_wpuf_subscribers
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_yith_wcwl
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_yoast_migrations
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_bm_message_meta
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_bm_thread_meta
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_bm_user_index
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_bp_activity_meta
+[2024-08-06 13:08:41][notice]Preparing to dump table wpzo_bp_friends
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_bp_groups_groupmeta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_bp_messages_messages
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_bp_messages_meta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_bp_notifications_meta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_bp_user_blogs
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_bp_user_blogs_blogmeta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_bp_xprofile_data
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_bp_xprofile_meta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_bpbm_threadsmeta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_commentmeta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_e_submissions_values
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_litespeed_url
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mailpoet_automation_run_subjects
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mailpoet_log
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mailpoet_segments
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mailpoet_sending_queues
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mailpoet_statistics_newsletters
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mailpoet_stats_notifications
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mailpoet_subscriber_segment
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mailpoet_subscriber_tag
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mepr_order_meta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mepr_subscription_meta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_mepr_transaction_meta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_redirection_groups
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_tec_occurrences
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_term_taxonomy
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_termmeta
+[2024-08-06 13:08:42][notice]Preparing to dump table wpzo_terms
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_tm_taskmeta
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_wc_customer_lookup
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_wc_download_log
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_wc_order_coupon_lookup
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_wc_order_operational_data
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_wc_order_tax_lookup
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_wc_orders_meta
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_woocommerce_api_keys
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_woocommerce_order_itemmeta
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_woocommerce_payment_tokenmeta
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_woocommerce_shipping_zone_locations
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_woocommerce_tax_rate_locations
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_wpmailsmtp_debug_events
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_yoast_primary_term
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_yoast_seo_links
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_bp_groups
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_bp_optouts
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_duplicator_packages
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_mailpoet_automation_run_logs
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_mailpoet_newsletter_links
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_mailpoet_statistics_clicks
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_mailpoet_statistics_unsubscribes
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_mepr_rule_access_conditions
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_redirection_404
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_redirection_logs
+[2024-08-06 13:08:43][notice]Preparing to dump table wpzo_rt_rtm_activity
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_term_relationships
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_um_metadata
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_users
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_wc_order_stats
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_yith_wcwl_lists
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_yoast_indexable_hierarchy
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_bm_message_messages
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_gamipress_user_earnings_meta
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_jetpack_sync_queue
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_mailpoet_scheduled_task_subscribers
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_mepr_tax_rate_locations
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_nextend2_section_storage
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_nextend2_smartslider3_sliders
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_signups
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_wc_order_addresses
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_wc_order_product_lookup
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_woocommerce_downloadable_product_permissions
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_woocommerce_tax_rates
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_wpuf_transaction
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_bp_messages_recipients
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_bp_xprofile_fields
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_litespeed_url_file
+[2024-08-06 13:08:44][notice]Preparing to dump table wpzo_mailpoet_automation_runs
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_mailpoet_statistics_opens
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_mailpoet_statistics_woocommerce_purchases
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_mepr_orders
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_wc_admin_note_actions
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_wc_admin_notes
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_bm_message_recipients
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_bp_groups_members
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_comments
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_redirection_items
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_bp_notifications
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_e_submissions_actions_log
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_rt_rtm_media
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_gamipress_user_earnings
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_mepr_events
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_wc_orders
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_bp_invitations
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_mepr_jobs
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_mepr_tax_rates
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_nextend2_smartslider3_slides
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_mailpoet_newsletters
+[2024-08-06 13:08:45][notice]Preparing to dump table wpzo_yoast_indexable
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_mailpoet_scheduled_tasks
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_mailpoet_subscribers
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_bp_activity
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_e_submissions
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_mepr_members
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_mepr_subscriptions
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_mepr_transactions
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_usermeta
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_wc_product_meta_lookup
+[2024-08-06 13:08:46][notice]Preparing to dump table wpzo_gamipress_logs
+[2024-08-06 13:08:47][notice]Preparing to dump table wpzo_gamipress_logs_meta
+[2024-08-06 13:08:47][notice]Preparing to dump table wpzo_mailpoet_newsletter_templates
+[2024-08-06 13:08:47][notice]Preparing to dump table wpzo_actionscheduler_logs
+[2024-08-06 13:08:47][notice]Preparing to dump table wpzo_posts
+[2024-08-06 13:08:48][notice]Preparing to dump table wpzo_options
+[2024-08-06 13:08:48][notice]Preparing to dump table wpzo_actionscheduler_actions
+[2024-08-06 13:08:48][notice]Preparing to dump table wpzo_postmeta
+[2024-08-06 13:08:53][notice]Exporting database finished.
+[2024-08-06 13:08:53][notice]Start compressing database
+[2024-08-06 13:08:53][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_db.sql
+[2024-08-06 13:08:55][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_db.part001.zip, filesize: 9.86 MB
+[2024-08-06 13:08:56][notice]Compressing database completed
+[2024-08-06 13:08:56][notice]Backing up backup_db completed.
+[2024-08-06 13:08:56][notice]Prepare to backup backup_themes files.
+[2024-08-06 13:08:56][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_themes.part001.zip index:550
+[2024-08-06 13:09:05][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_themes.part001.zip success. index:550 file size:22.31 MB
+[2024-08-06 13:09:09][notice]Backing up backup_themes completed.
+[2024-08-06 13:09:09][notice]Prepare to backup backup_plugin files.
+[2024-08-06 13:09:12][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part001.zip index:14522
+[2024-08-06 13:10:03][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part001.zip success. index:14522 file size:84.14 MB
+[2024-08-06 13:10:18][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part002.zip index:30445
+[2024-08-06 13:11:09][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part002.zip success. index:30445 file size:70.83 MB
+[2024-08-06 13:11:21][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part003.zip index:36613
+[2024-08-06 13:11:38][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part003.zip success. index:36613 file size:23.70 MB
+[2024-08-06 13:11:42][notice]Backing up backup_plugin completed.
+[2024-08-06 13:11:42][notice]Prepare to backup backup_uploads files.
+[2024-08-06 13:11:43][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part001.zip index:4474
+[2024-08-06 13:12:48][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part001.zip success. index:4474 file size:183.69 MB
+[2024-08-06 13:13:19][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part002.zip index:8502
+[2024-08-06 13:14:24][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part002.zip success. index:8502 file size:184.21 MB
+[2024-08-06 13:14:55][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part003.zip index:12562
+[2024-08-06 13:16:00][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part003.zip success. index:12562 file size:184.26 MB
+[2024-08-06 13:16:31][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part004.zip index:16342
+[2024-08-06 13:17:36][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part004.zip success. index:16342 file size:184.77 MB
+[2024-08-06 13:18:08][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part005.zip index:16876
+[2024-08-06 13:18:40][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part005.zip success. index:16876 file size:94.05 MB
+[2024-08-06 13:18:55][notice]Backing up backup_uploads completed.
+[2024-08-06 13:18:55][notice]Prepare to backup backup_content files.
+[2024-08-06 13:18:55][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part001.zip index:29
+[2024-08-06 13:18:56][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part001.zip success. index:29 file size:2.71 MB
+[2024-08-06 13:18:57][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part002.zip index:30
+[2024-08-06 13:20:06][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part002.zip success. index:30 file size:6.88 MB
+[2024-08-06 13:20:08][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part003.zip index:32
+[2024-08-06 13:20:08][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part003.zip success. index:32 file size:2.60 KB
+[2024-08-06 13:20:08][notice]Backing up backup_content completed.
+[2024-08-06 13:20:08][notice]Prepare to backup backup_core files.
+[2024-08-06 13:20:08][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_core.part001.zip index:1
+[2024-08-06 13:27:45][notice]Start backing up.
+[2024-08-06 13:27:45][notice]server info fcgi:Off max execution time: 300 wp version:6.4.5 php version:8.1.29 db version:8.0.37 php ini:safe_mode: memory_limit:256M memory_get_usage:37.84 MB memory_get_peak_usage:39.39 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-08-06 13:27:45][notice]LiteSpeed Server.
+[2024-08-06 13:27:45][notice]Add LiteSpeed Rule
+[2024-08-06 13:27:45][notice]Prepare to backup backup_core files.
+[2024-08-06 13:27:47][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_core.part001.zip index:2641
+[2024-08-06 13:28:29][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_core.part001.zip success. index:2641 file size:17.10 MB
+[2024-08-06 13:28:37][notice]Backing up backup_core completed.
+[2024-08-06 13:28:37][notice]Prepare to backup backup_merge files.
+[2024-08-06 13:28:37][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_db.zip
+[2024-08-06 13:28:43][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part001.zip, filesize: 9.59 MB
+[2024-08-06 13:28:43][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_themes.zip
+[2024-08-06 13:29:03][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part001.zip, filesize: 31.79 MB
+[2024-08-06 13:29:03][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part001.zip
+[2024-08-06 13:30:13][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part001.zip, filesize: 112.07 MB
+[2024-08-06 13:30:14][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part002.zip
+[2024-08-06 13:31:49][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part001.zip, filesize: 180.12 MB
+[2024-08-06 13:33:09][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part003.zip
+[2024-08-06 13:33:25][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part002.zip, filesize: 22.49 MB
+[2024-08-06 13:33:35][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part001.zip
+[2024-08-06 13:35:22][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_core.part001.zip success. index:1 file size:2.04 GB
+[2024-08-06 13:35:42][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part003.zip, filesize: 183.35 MB
+[2024-08-06 13:37:13][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part002.zip
+[2024-08-06 13:39:29][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part004.zip, filesize: 183.94 MB
+[2024-08-06 13:41:01][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part003.zip
+[2024-08-06 13:43:14][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part005.zip, filesize: 183.97 MB
+[2024-08-06 13:45:06][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part004.zip
+[2024-08-06 13:47:23][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part006.zip, filesize: 184.52 MB
+[2024-08-06 13:48:54][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part005.zip
+[2024-08-06 13:50:06][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part007.zip, filesize: 94.02 MB
+[2024-08-06 13:50:06][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part001.zip
+[2024-08-06 13:50:54][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part007.zip, filesize: 96.73 MB
+[2024-08-06 13:50:54][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part002.zip
+[2024-08-06 13:51:45][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part007.zip, filesize: 100.38 MB
+[2024-08-06 13:51:45][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part003.zip
+[2024-08-06 13:52:34][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part007.zip, filesize: 100.38 MB
+[2024-08-06 13:52:34][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_core.zip
+[2024-08-06 13:53:36][notice]Adding zip files completed.yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_all.part007.zip, filesize: 116.82 MB
+[2024-08-06 13:54:35][notice]Backing up backup_merge completed.
+[2024-08-06 13:54:35][notice]Backup completed.
+[2024-08-06 13:54:36][notice]LiteSpeed Server.
+[2024-08-06 13:54:36][notice]Clear LiteSpeed Rule
+[2024-08-06 13:54:42][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_core.part002.zip index:2642
+[2024-08-06 13:55:02][notice]Compressing zip file:yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_core.part002.zip success. index:2642 file size:17.07 MB
+[2024-08-06 13:55:02][notice]Backing up backup_core completed.
+[2024-08-06 13:55:02][notice]Prepare to backup backup_merge files.
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_db.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_themes.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part001.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part002.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_plugin.part003.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part001.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part002.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part003.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part004.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_uploads.part005.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part001.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part002.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_content.part003.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_core.part001.zip
+[2024-08-06 13:55:02][notice]Prepare to zip file. file: yeslove.co.uk_wpvivid-66b2124430d81_2024-08-06-13-08_backup_core.part002.zip
+[2024-08-06 13:55:02][notice]Backing up backup_merge completed.
+[2024-08-06 13:55:02][notice]Backup completed.
+[2024-08-06 13:55:02][notice]LiteSpeed Server.
+[2024-08-06 13:55:02][notice]Clear LiteSpeed Rule

@@ -1,0 +1,114 @@
+/*---------------------------------------------
+
+Template Name: Cirkle 
+Template URL: http://radiustheme.net/malek/cirkle/
+Description: Community WordPress Theme
+Author: RadiusTheme
+Author URL: http://www.radiustheme.com 
+Version: 1.0.0
+
+===================   
+CSS INDEX
+===================
+01. Gutenberg Support
+    1.1 Guten Block Styles
+    1.2 WP Default Style
+02. Global Styles
+    2.1 Global Tag
+    2.2 Global Section
+    2.3 Global Form 
+    2.4 Global Grid
+03. Breadcrumb
+04. Menu
+    4.1 Header Menu
+    4.2 Fix Header Menu
+    4.3 Mobile Nav Menu
+
+05. Footer
+06. BuddyPress Overright
+    6.1 Overright
+    6.2 MediaPress
+    6.3 Gamipress
+    6.4 Verified
+07. Blog
+    7.1 Blog
+    7.2 Blog Details
+08. Banner
+09. Why Choose
+10. Community
+11. Team
+12. Testimonial
+13. Location
+14. Groups
+15. About
+16. Contact
+17. Error
+18. Login
+19. User Profile
+20. User Banner
+21. Search Bar
+22. Widgets
+23. Forum
+24. Block
+    24.1 Block
+    24.2 Reaction Area
+    24.3 Gallery Preview
+    24.4 Plugin
+25. Post
+26. Product
+    26.1 WooCommerce Overridge
+    26.2 Products
+    26.3 Product Details
+    26.4 WooMini Cart
+    26.5 Checkout Page
+    26.6 Cart Page
+    26.7 My Account Page
+27. BBPress
+
+--------------------------------------------*/
+
+@import "generate/_variables.scss";
+@import "generate/_mixins.scss";
+
+/*=======================================================================
+ = Theme Main Style
+=========================================================================*/
+@import "template-layout/_gutenberg.scss";
+@import "template-layout/_global.scss";
+@import "template-layout/_breadcrumbs.scss";
+@import "template-layout/_menu.scss";
+@import "template-layout/_footer.scss";
+@import "template-layout/_cirklebp.scss";
+
+/*=======================================================================
+5. Template Page Style
+=========================================================================*/
+@import "template-section/_blog.scss";
+@import "template-section/_banner.scss";
+@import "template-section/_why_choose.scss";
+@import "template-section/_community.scss";
+@import "template-section/_team.scss";
+@import "template-section/_testimonial.scss";
+@import "template-section/_location.scss";
+@import "template-section/_groups.scss";
+@import "template-section/_about.scss";
+@import "template-section/_contact.scss";
+@import "template-section/_error.scss";
+@import "template-section/_login.scss";
+
+/*=======================================================================
+6. Dashboard Style
+=========================================================================*/
+@import "dashboard/_user_profile.scss";
+@import "dashboard/_banner.scss";
+@import "dashboard/_search_bar.scss";
+@import "dashboard/_widget.scss";
+@import "dashboard/_forum.scss";
+@import "dashboard/_block.scss";
+@import "dashboard/_post.scss";
+@import "dashboard/_product.scss";
+@import "dashboard/_bbpress.scss";
+@import "dashboard/_dark_mode.scss";
+@import "dashboard/_rtl.scss";
+
+

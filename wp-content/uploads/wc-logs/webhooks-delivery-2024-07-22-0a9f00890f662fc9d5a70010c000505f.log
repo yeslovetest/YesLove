@@ -1,0 +1,114 @@
+2024-07-22T01:20:30+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => f7902a655dbe7a7df9c27eac02027893
+            [Date] => Jul 22, 2024 @ 1:20
+            [URL] => https://api.printful.com/hook/woocommerce?store=12702375
+            [Duration] => 0.64801
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.3.0 Hookshot (WordPress/6.4.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://yeslove.co.uk/
+                            [X-WC-Webhook-Topic] => product.deleted
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => deleted
+                            [X-WC-Webhook-Signature] => TKpvOs9OB5hNyvZHOnbDFSl+FpqqTtUwWdxJPJSNpyM=
+                            [X-WC-Webhook-ID] => 4
+                            [X-WC-Webhook-Delivery-ID] => f7902a655dbe7a7df9c27eac02027893
+                        )
+
+                )
+
+            [Body] => {\"id\":8217}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Mon, 22 Jul 2024 01:20:30 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [vary] => Accept-Encoding
+                                    [cf-cache-status] => DYNAMIC
+                                    [set-cookie] => __cf_bm=POU28btp_WC0ohBElj1w6HwpD7bp4gkrGXQ8qSZuzFQ-1721611230-1.0.1.1-GF725ASU0JPr3qXakLAa0di0f6KJCnzsQkjqcevEIqCw8RiubPnfg3skBUL00Og3Rg0pFJr97fjwHQ3bQuVQcg; path=/; expires=Mon, 22-Jul-24 01:50:30 GMT; domain=.printful.com; HttpOnly; Secure; SameSite=None
+                                    [strict-transport-security] => max-age=31536000; includeSubDomains; preload
+                                    [x-content-type-options] => nosniff
+                                    [server] => cloudflare
+                                    [cf-ray] => 8a6f9bc9bd487744-LHR
+                                    [content-encoding] => gzip
+                                    [alt-svc] => h3=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => OK
+                )
+
+        )
+
+)
+
+2024-07-22T01:23:17+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => aedde61f1616686cf984de6e1dce3af4
+            [Date] => Jul 22, 2024 @ 1:23
+            [URL] => https://api.printful.com/hook/woocommerce?store=12702375
+            [Duration] => 0.86403
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.3.0 Hookshot (WordPress/6.4.5)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://yeslove.co.uk/
+                            [X-WC-Webhook-Topic] => product.deleted
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => deleted
+                            [X-WC-Webhook-Signature] => MgTQ0vME4HGGLU4lX1cXrxOUlagpXQxrhUCuOd0IWVQ=
+                            [X-WC-Webhook-ID] => 4
+                            [X-WC-Webhook-Delivery-ID] => aedde61f1616686cf984de6e1dce3af4
+                        )
+
+                )
+
+            [Body] => {\"id\":7659}
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Mon, 22 Jul 2024 01:23:17 GMT
+                                    [content-type] => text/html; charset=UTF-8
+                                    [vary] => Accept-Encoding
+                                    [cf-cache-status] => DYNAMIC
+                                    [set-cookie] => __cf_bm=8KaB5jM.mu2tAphOj9vxGNoDyAJhZa0RZB04I.ILAqU-1721611397-1.0.1.1-h77BM8eLg_4iV9MqUAzTirI6pqPP9BgyYZBdC9b7Gh1coBDlisvNLvbXZwacqcEuoremgN_yNIeDl9bHjF4P1w; path=/; expires=Mon, 22-Jul-24 01:53:17 GMT; domain=.printful.com; HttpOnly; Secure; SameSite=None
+                                    [strict-transport-security] => max-age=31536000; includeSubDomains; preload
+                                    [x-content-type-options] => nosniff
+                                    [server] => cloudflare
+                                    [cf-ray] => 8a6f9fdcecf279b6-LHR
+                                    [content-encoding] => gzip
+                                    [alt-svc] => h3=":443"; ma=86400
+                                )
+
+                        )
+
+                    [Body] => OK
+                )
+
+        )
+
+)
+

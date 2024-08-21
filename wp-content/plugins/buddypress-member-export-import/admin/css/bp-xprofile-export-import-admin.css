@@ -1,0 +1,222 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .nav-tab-wrapper ul li.members_export a.nav-tab:before {
+    content: "\f491";
+}
+.nav-tab-wrapper ul li.members_import a.nav-tab:before {
+    content: "\f166";
+}
+
+.wbcom-settings-section-options div.bpxp-checkboxes {
+    max-width: 680px;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    overflow-y: scroll;
+    max-height: 320px;
+}
+
+.wbcom-settings-section-options div.bpxp-checkboxes::-webkit-scrollbar {
+    width: 10px;    
+}
+.wbcom-settings-section-options div.bpxp-checkboxes::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius:5px;
+}
+.wbcom-settings-section-options div.bpxp-checkboxes::-webkit-scrollbar-thumb {
+    background: #ccc;border-radius:5px;
+}
+.wbcom-settings-section-options div.bpxp-checkboxes::-webkit-scrollbar-thumb:hover {
+    background: #ddd;
+}
+
+
+.wbcom-settings-section-options [type="number"] {
+    border-radius: 7px;
+    box-shadow: none;
+    height: 40px;
+    border-color: #e0e0e0;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.wbcom-admin-settings-page .wbcom-tab-content .button.button-primary:not(.button-welcome-support) {
+    line-height: 48px;
+}
+
+.wbcom-settings-section-options .button[disabled] {
+    background:#d3d7e3 !important;
+    color: #919191 !important;
+}
+
+p.notice-wbcom {
+    margin: 15px 0 0;
+    font-weight: 500;
+    color: #2a32ef;
+}
+
+
+#csv_header_error {
+    display: none;
+}
+
+
+/* Select box in drop down list */
+
+.bpxp-multiselect {
+    width: 100%;
+}
+
+.bpxp-selectBox {
+    position: relative;
+}
+
+.wbcom-settings-section-options .bpxp-selectBox select {
+    max-width:700px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bpxp-overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+}
+
+.bpxp-checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+}
+
+.bpxp-checkboxes label {
+    display: block;
+    padding:5px 10px;
+    border-radius: 8px;
+}
+
+.bpxp-checkboxes label:hover {
+    background-color: #2A32EF;
+    color: #fff;
+}
+
+.bpxp-admin-settings-spinner,
+.bpxp-admin-button-spinner {
+    display: none;
+}
+
+
+/* message box container */
+
+.bpxp-admin-notice-box {
+    margin-left: 13%;
+    width: 40%;
+}
+
+.bpxp-error-message {
+    background-color: hsl(0, 43%, 91%);
+    border: 1px solid hsl(348, 83%, 47%);
+    color: hsl(1, 44%, 46%);
+}
+
+.bpxp-success-message {
+    background-color: hsl(103, 44%, 89%);
+    border: 1px solid hsl(121, 33%, 35%);
+    color: hsl(121, 33%, 35%);
+}
+
+.bpxp-success-message .bpxp-close {
+    color: hsl(121, 33%, 35%);
+}
+
+.bpxp-error-message .bpxp-close {
+    color: hsl(1, 44%, 46%);
+}
+
+#bpxp_header_close {
+    color: hsl(0, 0%, 100%);
+    float: right;
+}
+
+.bpxp-message {
+    border-radius: 3px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+.bpxp-admin-label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bpxp-notice {
+    padding: 0!important;
+}
+
+
+/*----------------------------------------------
+ Maping group fields css on member import page admin
+-----------------------------------------------*/
+
+.bpxp-maping {
+    padding-top: 0px!important;
+}
+
+.bpxp-admin-table {
+    width: 70%;
+    margin: 0px 10px;
+}
+
+.bpxp-admin-table th {
+    text-align: left;
+    padding: 10px 0px;
+}
+
+tr.bpxp-group-heading {
+    font-weight: bold;
+}
+
+tr.bpxp-group-fields {}
+
+.bpxp-admin-table td span {
+    font-size: 14px;
+}
+
+.bpxp-close {
+    float: right;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -2px;
+    text-decoration: none;
+}
+
+.bpxp-close:hover {
+    color: white;
+}
+
+.bpxp-error-border {
+    border-color: hsl(0, 100%, 50%);
+}
+
+select.bpxp_csv_fields {
+    min-width: 175px;
+}
+
+
+@media only screen and (max-width:959px) {
+
+.wbcom-settings-section-options div.bpxp-checkboxes {
+    max-width:78%;
+}
+
+}

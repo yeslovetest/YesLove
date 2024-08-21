@@ -1,0 +1,65 @@
+S.No,"Plugin Name",Description,Author,Active/Inactive,"Current Version","Update Available","New Version"
+1,"Advanced Access Manager","Powerfully robust WordPress plugin designed to help you control every aspect of your website, your way.","AAM <support@aamplugin.com>",Active,6.9.17,No,-
+2,"All-in-One WP Migration","Migration tool for all your blog data. Import or Export your blog content with a single click.",ServMask,Active,7.79,No,-
+3,"All-in-One WP Migration Google Drive Extension","Extension for All-in-One WP Migration that enables using Google Drive for imports and exports",ServMask,Active,2.82,No,-
+4,bbPress,"bbPress is forum software with a twist from the creators of WordPress.","The bbPress Contributors",Active,2.6.9,No,-
+5,"Better Messages","Realtime private messaging system for WordPress",WordPlus,Active,2.3.10,No,-
+6,"Better Notifications for WP","Supercharge your WordPress notifications using a WYSIWYG editor and shortcodes. Default and new notifications available. Add more power with Add-ons.","Made with Fuel",Active,1.9.3,No,-
+7,"Breadcrumb NavXT","Adds a breadcrumb navigation showing the visitor&#39;s path to their current location. For details on how to use this plugin visit <a href=""http://mtekk.us/code/breadcrumb-navxt/"">Breadcrumb NavXT</a>.","John Havlik",Inactive,7.2.0,No,-
+8,BuddyPress,"BuddyPress adds community features to WordPress. Member Profiles, Activity Streams, Direct Messaging, Notifications, and more!","The BuddyPress Community",Active,11.4.0,No,-
+9,"Cirkle Core","Cirkle Core Plugin for Cirkle Theme",RadiusTheme,Active,1.0.8,No,-
+10,"Content Control","Restrict content to logged in/out users or specific user roles. Restrict access to certain parts of a page/post. Control the visibility of widgets.","Code Atlantic",Active,2.0.12,No,-
+11,"Custom BuddyPress Templates","Overrides BuddyPress and template-parts templates","Robert June",Active,1.0.1,No,-
+12,"Duplicate Page","Duplicate Posts, Pages and Custom Posts using single click.",mndpsingh287,Active,4.5.3,No,-
+13,Duplicator,"Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",Duplicator,Inactive,1.5.6,Yes,1.5.6.1
+14,Elementor,"The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",Elementor.com,Active,3.16.6,Yes,3.17.2
+15,"Elementor Header & Footer Builder","This powerful plugin allows creating a custom header, footer with Elementor and display them on selected locations. You can also create custom Elementor blocks and place them anywhere on the website with a shortcode.","Brainstorm Force, Nikhil Chavan",Active,1.6.17,No,-
+16,"Elementor Pro","Elevate your designs and unlock the full power of Elementor. Gain access to dozens of Pro widgets and kits, Theme Builder, Pop Ups, Forms and WooCommerce building capabilities.",Elementor.com,Active,3.13.2,Yes,3.17.1
+17,"Embed Plus YouTube WordPress Plugin","YouTube Embed Plugin. Embed a YouTube channel gallery, playlist gallery, YouTube live stream. Lite embeds with defer JavaScript and facade options","Embed Plus YouTube Plugin Team",Inactive,14.2,No,-
+18,"Event Tickets","Event Tickets allows you to sell basic tickets and collect RSVPs from any post, page, or event.","The Events Calendar",Inactive,5.6.6.1,Yes,5.6.7
+19,"Fluent Forms","Contact Form By Fluent Forms is the advanced Contact form plugin with drag and drop, multi column supported form builder plugin","Contact Form - WPManageNinja LLC",Active,5.0.12,Yes,5.1.1
+20,GamiPress,"The most flexible and powerful gamification system for WordPress.",GamiPress,Active,5.1.0,Yes,6.0.0
+21,"GamiPress - BuddyPress integration","Connect GamiPress with BuddyPress.",GamiPress,Inactive,1.6.1,No,-
+22,"Hide Admin Bar Based on User Roles","This plugin is very useful to hide admin bar based on selected user roles and user capabilities.","Ankit Panchal",Inactive,3.6.1,No,-
+23,Intercom,"Official <a href=""https://www.intercom.io"">Intercom</a> support for WordPress.",Intercom,Inactive,2.6.5,No,-
+24,"Loco Translate","Translate themes and plugins directly in WordPress","Tim Whitlock",Inactive,2.6.6,No,-
+25,"LoginWP (Formerly Peter's Login Redirect)","Redirect users to different URLs based on their role, capability and more.","LoginWP Team",Active,3.0.8.5,No,-
+26,MailPoet,"Create and send newsletters, post notifications and welcome emails from your WordPress.",MailPoet,Active,4.32.0,Yes,4.35.0
+27,MediaPress,"MediaPress is the most powerful media plugin for BuddyPress . It allows uploading images(photos), videos, audios, documents",BuddyDev,Active,1.5.7,No,-
+28,"MemberPress Pro","The membership plugin that makes it easy to accept payments for access to your content and digital products.","Caseproof, LLC",Active,1.11.0,No,-
+29,"Page Restriction WordPress (WP) - Protect WP Pages/Post","This plugin allows restriction over users based on their roles and whether they are logged in or not.",miniOrange,Inactive,1.3.4,No,-
+30,"Printful Integration for WooCommerce","Connects your Printful account with WooCommerce.",Printful,Active,2.2.5,No,-
+31,"Printify Shipping Method","Calculate shipping rates for products managed by Printify.",Printify,Active,2.7,Yes,2.8
+32,"RadiusTheme Reactions",,RadiusTheme,Active,1.0.4,No,-
+33,Redirection,"Manage all your 301 redirects and monitor 404 errors","John Godley",Active,5.3.10,No,-
+34,"RT Demo Importer","Uninstall this plugin after you've finished importing demo contents",RadiusTheme,Inactive,5.0.0,No,-
+35,"RT Framework","Theme Framework by RadiusTheme",RadiusTheme,Active,2.8,No,-
+36,"Simple Local Avatars","Adds an avatar upload field to user profiles. Generates requested sizes on demand, just like Gravatar! Simple and lightweight.",10up,Inactive,2.7.5,No,-
+37,"Smart Archive Page Remove","Completely remove unwanted Archive Pages from your Blog","Peter Raschendorfer",Active,5.1.1,No,-
+38,"Smart Slider 3","The perfect all-in-one responsive slider solution for WordPress.",Nextend,Active,3.5.1.19,No,-
+39,"String Locator","Scan through theme and plugin files looking for text strings",InstaWP,Active,2.6.3,No,-
+40,"Terms and Conditions Popup for WooCommerce","Allows your customers to see the terms and conditions without leaving the checkout page.",BeRocket,Inactive,3.5.7.8,No,-
+41,"The Events Calendar","The Events Calendar is a carefully crafted, extensible plugin that lets you easily share your events. Beautiful. Solid. Awesome.","The Events Calendar",Active,6.2.4,Yes,6.2.5
+42,"The Events Calendar: Virtual Events","Virtual Events is an add-on to The Events Calendar suite of products that optimizes your calendar, tickets, and email notifications for virtual events.","The Events Calendar",Active,1.7.0,No,-
+43,"The Events Calendar Pro","The Events Calendar Pro, a premium add-on to the open source The Events Calendar plugin (required), enables recurring events, custom attributes, venue pages, new widgets and a host of other premium features.","The Events Calendar",Inactive,6.0.12.1,No,-
+44,"Ultimate Member","The easiest way to create powerful online communities and beautiful user profiles with WordPress","Ultimate Member",Active,2.7.0,No,-
+45,"Upload Quota per User","Limits the total space a user can use uploading files and changes single file upload size.","Cristian Dinu-Tănase, Daniyal Ahmed",Active,1.3,No,-
+46,"User Role Editor","Change/add/delete WordPress user roles and capabilities.","Vladimir Garagulya",Inactive,4.64,Yes,4.64.1
+47,"Verified Member for BuddyPress","This plugins allows admins to add a ""Verified"" badge for specific members.",Themosaurus,Active,1.2.6,No,-
+48,"Wbcom Designs - BuddyPress Member Export Import","Buddypress Member Export Import plugin bring you feature to export Buddypress members and x-profile fields data into CSV file and import buddypress members from CSV file.","Wbcom Designs",Inactive,1.5.0,No,-
+49,"What The File","What The File adds an option to your toolbar showing what file and template parts are used to display the page you’re currently viewing. You can click the file name to directly edit it through the theme editor. Supports BuddyPress and Roots Theme. More information can be found at the <a href='http://wordpress.org/extend/plugins/what-the-file/'>WordPress plugin page</a>.",Never5,Inactive,1.6.0,No,-
+50,"White Label","White Label WordPress and make life easier for your clients.",WhiteWP.com,Inactive,2.9.0,No,-
+51,WooCommerce,"An eCommerce toolkit that helps you sell anything. Beautifully.",Automattic,Active,8.2.1,No,-
+52,"WP-Optimize - Clean, Compress, Cache","WP-Optimize makes your site fast and efficient. It cleans the database, compresses images and caches pages. Fast sites attract more traffic and users.","David Anderson, Ruhani Rabin, Team Updraft",Active,3.2.21,No,-
+53,"WPCode Lite","Easily add code snippets in WordPress. Insert scripts to the header and footer, add PHP code snippets with conditional logic, insert ads pixel, custom content, and more.",WPCode,Inactive,2.1.3.1,Yes,2.1.4.1
+54,"WP Fastest Cache","The simplest and fastest WP Cache system","Emre Vona",Active,1.2.0,Yes,1.2.1
+55,"WP File Manager","Manage your WP files.",mndpsingh287,Inactive,7.2,Yes,7.2.1
+56,"WP Mail SMTP","Reconfigures the <code>wp_mail()</code> function to use Gmail/Mailgun/SendGrid/SMTP instead of the default <code>mail()</code> and creates an options page to manage the settings.","WP Mail SMTP",Active,3.9.0,No,-
+57,"WP Private Content Plus","Advanced private content restrictions for WordPress","Rakhitha Nimesh",Inactive,3.6,No,-
+58,"WPS Hide Login","Protect your website by changing the login URL and preventing access to wp-login.php page and wp-admin directory while not logged-in","WPServeur, NicolasKulka, wpformation",Inactive,1.9.9,No,-
+59,"WP User Frontend","Create, edit, delete, manages your post, pages or custom post types from frontend. Create registration forms, frontend profile and more...",weDevs,Inactive,3.6.9,No,-
+60,YellowPencil,"The most powerful visual CSS editor for WordPress. Customize any theme and page visually without coding.",WaspThemes,Active,7.6.0,No,-
+61,"YITH WooCommerce Quick View","The <code><strong>YITH WooCommerce Quick View</strong></code> plugin allows your customers to have a quick look about products. <a href=""https://yithemes.com/"" target=""_blank"">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>.",YITH,Inactive,1.32.0,No,-
+62,"YITH WooCommerce Wishlist","<code><strong>YITH WooCommerce Wishlist</strong></code> gives your users the possibility to create, fill, manage and share their wishlists allowing you to analyze their interests and needs to improve your marketing strategies. <a href=""https://yithemes.com/"" target=""_blank"">Get more plugins for your e-commerce on <strong>YITH</strong></a>",YITH,Inactive,3.26.0,No,-
+63,"Yoast SEO","The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.","Team Yoast",Active,21.4,Yes,21.5
+64,Youzify,"Youzify is a WordPress Community, Social Network and User Profiles management solution with a Secure Membership System, Front-end Account Settings, Powerful Admin Panel, Many Header Styles, +20 Profile Widgets, 16 Color Schemes, Advanced Author Widgets, Fully Responsive Design, Extremely Customizable and a Bunch of Unlimited Features provided by KaineLabs.",KaineLabs,Inactive,3.3.4,Yes,1.2.3

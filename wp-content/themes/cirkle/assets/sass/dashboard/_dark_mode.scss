@@ -1,0 +1,590 @@
+/*============================================================================
+28. Dark Mode
+==============================================================================*/
+.header__switch {
+    position: fixed;
+    top: 320px;
+    background: #2962ff;
+    right: 12px;
+    z-index: 9999;
+    padding: 8px 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.header__switch__label {
+    width: 20px;
+    height: 46px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.4s ease;
+}
+.header__switch__main {
+    position: absolute;
+    background: #0034c2;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.header__switch__main.round {
+    border-radius: 15px;
+}
+.header__switch__main::before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 100%;
+    left: 3px;
+    transition: 1s cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.header__switch__input {
+    display: none;
+}
+.header__switch__input:checked + .header__switch__main::before {
+    transform: translateY(30px);
+    transition: 0.5s cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.header__switch__settings {
+    color: #fff;
+    margin-bottom: 8px;
+    transition: all 0.4s ease;
+}
+.header__switch__dark {
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+[data-theme="dark-mode"] {
+    .why-choose-fluid .why-choose-content,
+    .each-comment .media-body,
+    .html-active .switch-html, 
+    .tmce-active .switch-tmce,
+    .form-group .form-control,
+    .header__switch__main,
+    .breadcrumbs-banner,
+    div.mce-toolbar-grp,
+    .banner-newsletter,
+    .wp-switch-editor,
+    .simple-dropdown,
+    iframe html body,
+    .hero-banner,
+    .footer-wrap,
+    body#tinymce {
+        background-color: #161717 !important;
+    }
+    nav.template-main-menu>ul>li.mega-menu.mega-menu-col-2 ul.children, nav.template-main-menu>ul>li.mega-menu.mega-menu-col-2 ul.sub-menu,
+    .bbp-replies li.bbp-body .cirkle-type-topic .bbp-reply-author-info .author-reply-content .title-user-status .bbp-author-role,
+    .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register,
+    nav.template-main-menu>ul>li ul.children, nav.template-main-menu>ul>li ul.sub-menu,
+    .wc-order-review-wrapper table.woocommerce-checkout-review-order-table,
+    .group-main-page .tabs-with-search div.dir-search input[type=text],
+    .settings .profile-item-body .standard-form table.profile-settings,
+    .bbp-replies li.bbp-body .cirkle-type-topic .bbp-reply-content,
+    .woocommerce-error, .woocommerce-info, .woocommerce-message,
+    .loadmore-badges .lmbtn-box .gamipress-load-more-button,
+    #bbpress-forums .bbp-pagination-links a.page-numbers,
+    #bbpress-forums div.even, #bbpress-forums ul.even,
+    #bbpress-forums div.odd, #bbpress-forums ul.odd,
+    .contact-page .contact-box-wrap .contact-form,
+    #bbpress-forums #bbp-search-form #bbp_search,
+    .settings .profile-item-body .standard-form,
+    .cirkle-message-details #message-recipients,
+    .profile .profile-item-body .item-list-tabs,
+    .user-search-bar .input-group .form-control,
+    .login-page-wrap .nav-tabs li .nav-link,
+    .profile-item-body .profile .bp-widget,
+    .cirkle-message-details .message-box,
+    .bbpress-wrapper .bbp-topic-form div,
+    .profile-item-body .item-list-tabs,
+    .profile .standard-form .editfield,
+    .messages .profile-item-body form,
+    .bbp-replies .bbp-reply-header,
+    .cart-collaterals .cart_totals,
+    .woocommerce-additional-fields,
+    .woocommerce-checkout #payment,
+    .login-page-wrap .tab-content,
+    .sidebar-widget-area .widget,
+    .woocommerce-billing-fields,
+    span#subscription-toggle a,
+    form.woocommerce-cart-form,
+    #user-view .widget-author,
+    .bbp-replies li.bbp-body,
+    .widget-banner .item-btn,
+    div.bbp-template-notice,
+    .single-product-info,
+    .user-earned-grid,
+    .item-list-tabs,
+    .bbp-reply-form,
+    .reaction-box {
+        background-color: #242526 !important;
+    }
+    .simple-dropdown .simple-dropdown-link:hover,
+    .post-settings .icofont-listine-dots:after {
+        background-color: #1c2022;
+    }
+    .fixed-header .header-control .header2-login a,
+    .fixed-header .header-control .input-group {
+        background-color: #2a2a2a;
+    }
+    /*==== sidebar fixed menu ====*/
+    .bbp-replies li.bbp-body .cirkle-type-topic .bbp-reply-author-info .author-reply-content .title-user-status .bbp-author-role,
+    .woocommerce #reviews #comments ol.commentlist li .comment-text .author-name p.meta time.woocommerce-review__published-date,
+    .woocommerce #reviews #comments ol.commentlist li .comment-text .author-name p.meta span.woocommerce-review__dash,
+    .profile .standard-form .editfield fieldset .field-visibility-settings-toggle .visibility-toggle-link,
+    .widget-author .author-statistics .friendship-button, .widget-author .author-statistics .item-text,
+    nav.template-main-menu>ul>li ul.children li a, nav.template-main-menu>ul>li ul.sub-menu li a,
+    .user-earned-grid .gamipress-achievement-description h2.gamipress-achievement-title a,
+    .bbp-pagination-links a, .bbp-pagination-links span, .pagination a, .pagination span,
+    .fixed-header .header-control .dropdown-friend .dropdown-menu .item-body .no-request,
+    .select2-container--default .select2-selection--single .select2-selection__rendered,
+    .fixed-header .header-control .dropdown-notification .dropdown-menu .item-body p a,
+    .bbp-replies li.bbp-body .cirkle-type-topic .author-reply-content .bbp-author-link,
+    .single-product .product-content .woocommerce-product-details__short-description p,
+    .post-view .post-header .media .activity-avatar .status-info .activity-title span,
+    .bbp-topics li.bbp-body li.bbp-topic-title .topic-meta-content a.bbp-author-link,
+    .fixed-header .header-control .dropdown-admin .dropdown-toggle .item-title a,
+    .single-product .product-content .product_meta span.sku_wrapper span.sku,
+     #bbpress-forums li.bbp-body ul li .bbp-forum-content a.bbp-forum-title,
+    .settings .profile-item-body .standard-form .submit input[type=submit],
+    .fixed-header .header-control .dropdown-admin .dropdown-toggle:before,
+    .woocommerce-checkout .woocommerce form .form-row input.input-text,
+    .contact-page .contact-box-wrap .contact-form .fluentform .ff-btn,
+    #bbpress-forums li.bbp-body ul li .meta-info span.bbp-author-name,
+    .bbp-replies li.bbp-body .cirkle-type-topic .bbp-reply-content p,
+    .single-product .product-content .product_meta span.tagged_as a,
+    .woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+    .woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+    #bbpress-forums fieldset.bbp-form .bbp-submit-wrapper button,
+    .woocommerce-error, .woocommerce-info, .woocommerce-message,
+    #bbpress-forums li.bbp-body ul li ul.bbp-forums-list li a,
+    .contact-page .contact-box-wrap .contact-box .item-title,
+    .user-earned-grid .gamipress-achievement-description h4,
+    .loadmore-badges .lmbtn-box .gamipress-load-more-button,
+    .fixed-sidebar .sidebar-menu-wrap .side-menu .menu-link,
+    .woocommerce .woocommerce-Reviews .comment-reply-title,
+    .contact-page .contact-box-wrap .contact-method ul li,
+    .user-blog .blog-meta .blog-post-reactions .meta-text,
+    .single-product .product-content .product_meta span,
+    .profile .standard-form .submit input[type=submit],
+    .profile .standard-form .editfield fieldset legend,
+    .post-settings.active .icofont-listine-dots:before, 
+    .post-settings:hover .icofont-listine-dots:before,
+    .mpp-remote-media-container .mpp-add-remote-media,
+    .messages .profile-item-body .messages-notices a,
+    .cirkle-message-details #message-subject:before,
+    .widget-author .author-statistics .item-number,
+    .form-check input[type=checkbox]:checked+label,
+    .fixed-header .header-control .header2-login a,
+    .cirkle-message-details #message-subject:after, 
+    #cirkle-whats-new-options .cirkle-media-btn a,
+    .cirkle-message-details #message-recipients a,
+    .simple-dropdown .simple-dropdown-link:hover,
+    .post-settings .icofont-listine-dots:before,
+    .post-input-tab .nav-tabs .nav-link.active,
+    .login-page-wrap .tab-content .item-title,
+    .cirkle-group-list li .item .item-title a,
+    .cirkle-message-details #message-subject,
+    #bbpress-forums fieldset.bbp-form legend,
+    .messages-options-nav input[type=submit],
+    .login-page-wrap .nav-tabs li .nav-link,
+    .cirkle-member-list li .item .item-meta,
+    .header-action ul .header-search-icon a,
+    .pagination a.next.page-numbers:after,
+    .user-timeline-header .menu-list li a,
+    .widget-groups .media .item-title a,
+    #bbpress-forums li.bbp-header ul li,
+    .reaction-box .user-status-title a,
+    .header-action ul .header-social a,
+    .user-top-header .menu-list li a,
+    .login-page-wrap .tab-content h6,
+    .login-page-wrap .tab-content h5,
+    .settings .profile-item-body h2,
+    footer .widget_nav_menu ul li a,
+    .widget-author .author-location,
+    nav.template-main-menu>ul>li>a,
+    #bbpress-forums li.bbp-header,
+    .post-view .post-footer>ul>li,
+    span#subscription-toggle a,
+    .form-group .form-control,
+    .widget-banner .item-btn,
+    .cirkle-search-result h6,
+    .post-view .post-body p,
+    .activity-time, .mht,
+    .bbp-logged-in h4 a,
+    .bbpress-wrapper h2,
+    h3.comment-title,
+    h6.cirkle_header,
+    .item-options a,
+    footer .widget,
+    .button-slide,
+    .profile h2,
+    body {
+        color: #b0b3b8;
+    }
+    #cirkle-whats-new-options .cirkle-media-btn a:hover {
+        color: $color_primary;
+    }
+    .woocommerce #reviews #comments ol.commentlist li .comment-text .author-name p.meta strong,
+    .post-view .post-comment .activity-comments .post-comment-list-wrap .acomment-content,
+    .fixed-header .header-control .dropdown .dropdown-menu .item-heading .heading-title,
+    .post-view .post-header .media .activity-avatar .status-info .activity-title a,
+    .activity-comments .post-comment-list .comment-header .acomment-meta a,
+    ul.minicart>li .media .cart-content ul li .cart-title-line1 a,
+    .post-view .post-body .post-friends-view .profile-name a,
+    .product-breadcrumb .breadcrumb-area .entry-breadcrumb a,
+    .woocommerce div.product .woocommerce-tabs ul.tabs li a,
+    .why-choose-box .features-list .media-body .item-title,
+    .single-product .product-content h1.product_title,
+    .banner-newsletter .newsletter-box .item-title,
+    .product-box .product-content .product-title a,
+    .realated-blog .blog-heading .heading-title,
+    .pagination a.prev.page-numbers:hover:after,
+    .pagination a.next.page-numbers:hover:after,
+    .each-comment .media-body h3.comment-meta a,
+    .cirkle-member-list li .item .item-title a,
+    .single-product .product-content p.price,
+    .user-blog .blog-content .blog-title a,
+    .header-action ul .login-btn a:hover,
+    .user-single-blog .blog-content h3,
+    .woocommerce-additional-fields h3,
+    .pagination .page-numbers:hover,
+    .woocommerce-billing-fields h3,
+    .header-action ul .login-btn a,
+    .widget-author .author-name a,
+    .widget-heading .widget-title,
+    .section-heading .item-title,
+    .wc-order-review-wrapper h3,
+    .footer-box .footer-title,
+    .post-view .post-body p,
+    .comment-reply-title,
+    .cart-collaterals h2,
+    .related-product h2,
+    h3.comment-title,
+    .button-slide:hover {
+        color: #e4e6eb !important;
+    }
+    .pagination .prev.page-numbers:hover,
+    .pagination .next.page-numbers:hover {
+        color: transparent;
+    }
+    .blog-grid .blog-box .blog-content .blog-title a,
+    .profile .standard-form .button-nav li.current a,
+    .user-timeline-header .menu-list li.current a
+    .user-timeline-header .menu-list li a:hover,
+    .user-top-header .menu-list li.current a,
+    .user-top-header .menu-list li a:hover,
+    .progress-box .media .item-title,
+    .item-list-tabs ul li.current a,
+    .widget-banner .item-btn:hover,
+    .item-list-tabs ul li a:hover,
+    .quantity input.input-text,
+    .woocommerce button.button,
+    .item-options a.selected,
+    .item-options a:hover {
+        color: #e4e6eb;
+    }
+    #bbpress-forums .bbp-pagination-links a.next.page-numbers:after {
+        -webkit-text-fill-color: #8793a3;
+    }
+    .fixed-header .header-control .dropdown .dropdown-toggle {
+        color: #666666;
+    }
+    .user-earned-grid .gamipress-achievement-description .gamipress-achievement-earners-list:before,
+    .bbp-pagination-links a, .bbp-pagination-links span, .pagination a, .pagination span,
+    .fixed-header .header-control .dropdown-friend .dropdown-menu .item-body .no-request,
+    .fixed-header .header-control .dropdown .dropdown-menu .item-body .media,
+    #bbpress-forums fieldset.bbp-form .bbp-submit-wrapper button,
+    .quantity .input-group-btn, .quantity input.input-text,
+    .why-choose-box .features-list .item-icon,
+    .product-box .rtin-buttons-woocart a,
+    .header-action ul .login-btn a,
+    .cirkle-search-result,
+    .header__switch,
+    .dropdown-menu {
+        background-color: #242526;
+    }
+    #bbpress-forums fieldset.bbp-form input[type=password], #bbpress-forums fieldset.bbp-form input[type=text],
+    .messages .profile-item-body .item-list-tabs .message-search form input[type=text],
+    .contact-page .contact-box-wrap .contact-form .fluentform .ff-el-form-control,
+    .cirkle-activity-form .post-input-tab .tab-content .post-status-box textarea,
+    .banner-newsletter .newsletter-box .frm-fluent-form .ff-el-form-control,
+    .woocommerce-additional-fields span.woocommerce-input-wrapper textarea,
+    #bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content,
+    .woocommerce-checkout .woocommerce form .form-row input.input-text,
+    .cirkle-message-details .standard-form .message-content textarea,
+    .woocommerce .woocommerce-Reviews #review_form #respond textarea,
+    .woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+     .woocommerce-cart table.cart td.actions .coupon .input-text,
+    .settings .profile-item-body .standard-form .settings-input,
+    .login-page-wrap .tab-content .form-group .form-control,
+    .select2-container--default .select2-selection--single,
+    .compose .profile-item-body .standard-form textarea,
+    .mpp-remote-media-container .mpp-remote-media-url,
+    .profile .standard-form .editfield fieldset input,
+    .compose .profile-item-body .standard-form input,
+    .location-box .item-content button.btn,
+    .newsfeed-banner .item-list-tabs {
+        background-color: transparent !important;
+    }
+    #bbpress-forums fieldset.bbp-form input[type=password], #bbpress-forums fieldset.bbp-form input[type=text],
+    [data-theme=dark-mode] .messages .profile-item-body .item-list-tabs .message-search form input[type=text],
+    #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-replies, 
+    input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], textarea,
+    #bbpress-forums .bbp-pagination-links a, #bbpress-forums .bbp-pagination-links span.current,
+    .messages .profile-item-body .item-list-tabs .message-search form input[type=text],
+    input[type=number], input[type=password], input[type=range], input[type=search], 
+    .fixed-header .header-control .dropdown-admin .dropdown-menu .admin-options li,
+    .contact-page .contact-box-wrap .contact-form .fluentform .ff-el-form-control,
+    #bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic,
+    .settings .profile-item-body .standard-form table.profile-settings tr th,
+    .settings .profile-item-body .standard-form table.profile-settings tr td,
+    .settings .profile-item-body .standard-form .notification-settings td, 
+    .settings .profile-item-body .standard-form .notification-settings th,
+    #bbpress-forums ul.bbp-search-results, #bbpress-forums ul.bbp-topics,
+    #bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content,
+    .group-main-page .tabs-with-search div.dir-search input[type=text],
+    .woocommerce .woocommerce-Reviews #review_form #respond textarea,
+    input[type=color], input[type=date], input[type=datetime-local], 
+    #bbpress-forums li.bbp-footer, #bbpress-forums li.bbp-header,
+    .fixed-header .header-control .dropdown-admin .dropdown-menu,
+    .woocommerce-cart table.cart td.actions .coupon .input-text,
+    input[type=datetime], input[type=email], input[type=month], 
+    .woocommerce-cart .cart-collaterals .cart_totals table td,
+    .profile-item-body .profile .bp-widget .profile-fields tr,
+    .login-page-wrap .tab-content .form-group .form-control,
+    .post-view .post-body .post-friends-view .profile-thumb,
+    .cart-collaterals .cart_totals table tr td:first-child, 
+    .cart-collaterals .cart_totals table tr th:first-child,
+    .quantity .input-group-btn, .quantity input.input-text,
+    .select2-container--default .select2-selection--single,
+    .html-active .switch-html, .tmce-active .switch-tmce,
+    .user-single-blog .blog-comment-form .form-control,
+    .woocommerce #reviews #comments ol.commentlist li,
+    .user-search-bar .input-group .form-control,
+    .profile .standard-form .button-nav li a,
+    form.woocommerce-cart-form table.cart td, 
+    form.woocommerce-cart-form table.cart th,
+    #bbpress-forums fieldset.bbp-form select,
+    .woocommerce table.shop_attributes th,
+    .woocommerce table.shop_attributes td,
+    #bbpress-forums li.bbp-header ul li,
+    .woocommerce table.shop_attributes,
+    #bbpress-forums li.bbp-body ul li,
+    #bbpress-forums li.bbp-body ul li,
+    #bbpress-forums .bbp-forums-list,
+    .user-single-blog .blog-footer,
+    .bbp-replies .bbp-reply-header,
+    .user-top-header .menu-list li,
+    .woocommerce table.shop_table,
+    div.bbp-template-notice.info,
+    .post-input-tab .post-footer,
+    .user-top-header .menu-list,
+    .woocommerce-checkout #payment ul.payment_methods,
+    #add_payment_method #payment ul.payment_methods, 
+    .woocommerce-cart #payment ul.payment_methods, 
+    .wc-order-review-wrapper table tr td, 
+    .wc-order-review-wrapper table tr th,
+    .woocommerce form.checkout_coupon,
+    .post-view .post-footer,
+    .cirkle-member-list li,
+    .cirkle-member-list li,
+    .user-blog .blog-meta,
+    .cirkle-group-list li,
+    .widget-groups .media,
+    .wp-editor-container,
+    .quicktags-toolbar,
+    .post-comment-list,
+    .woocommerce-info,
+    .wp-switch-editor,
+    .item-options a,
+    .footer-bottom,
+    .mpp-dropzone,
+    .form-control,
+    select {
+        border-color: #3e3e3e !important;
+    }
+    .testimonial-carousel .testimonial-content .item-subtitle,
+    .banner-newsletter .newsletter-box p,
+    .why-choose-fluid .content-box p,
+    p {
+        color: #b5b4b4;
+    }
+    .user-search-bar .input-group .search-btn {
+        border: 1px solid #3e3e3e;
+        border-left: 0;
+    }
+    .fixed-header .header-control .dropdown .dropdown-menu:before {
+        border-bottom: 10px solid #35353e;
+    }
+    .profile .standard-form .button-nav li.current a {
+        border-color: $color_light;
+    }
+    .banner-newsletter .newsletter-box .frm-fluent-form .ff-el-form-control {
+        border: 1px solid #3e3e3e;
+    }
+    .profile .standard-form .editfield fieldset .field-visibility-settings-toggle .visibility-toggle-link,
+    button, input[type=button], input[type=reset], input[type=submit], 
+    .profile .standard-form .submit input[type=submit],
+    .mpp-remote-media-container .mpp-add-remote-media,
+    .widget-author .author-statistics li:after {
+        background-color: #2c2c2c;
+    }
+    .post-view .post-body p a {
+        color: #9e9faf;
+    }
+    .footer-dashboard {
+        border-color: #242526;
+        background-color: #1a1a1a;
+    }
+    .user-top-header .menu-list li:after {
+        bottom: -3px;
+    }
+    .profile .standard-form .editfield fieldset input:focus,
+    input.form-control::-webkit-input-placeholder,
+    textarea.form-control::-webkit-input-placeholder {
+        color: #4c4c4c;
+    }
+    #bbpress-forums ul.bbp-forums,
+    #bbpress-forums ul.bbp-topics {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    #bbpress-forums .bbp-pagination-links span.current, 
+    #bbpress-forums .bbp-pagination-links a:hover, 
+    #bbpress-forums .bbp-topic-pagination a:hover {
+        border-color: #3e3e3e;
+    }
+    .login-page-wrap .content-wrap {
+        background-image: none;
+    }
+    .settings .profile-item-body .standard-form .settings-input:focus {
+        outline: none;
+    }
+    .cirkle-search-result {
+        box-shadow: 0 0 10px #242424;
+    }
+    select {
+        background-image: url(../../img/down-2.png);
+    }
+    .footer-wrap.footer-1:before {
+        background-image: url(../../img/footer-bg.png);
+    }
+    .cirkle-loader {
+        background-image: url(../../img/spinner2.gif);
+    }
+    .why-choose-fluid .content-box .button-slide {
+        box-shadow: 0 17px 21px 0 rgba( 84, 84, 84, .3 );
+    }
+    .groups-popular .groups-box {
+        .item-img img {
+            filter: grayscale(100%);
+        }
+        &:hover {
+            .item-img img {
+                filter: grayscale(0);
+            }
+        }
+    }
+    .why-choose-box .features-list .item-icon {
+        box-shadow: none;
+    }
+    .widget-banner .item-btn svg path {
+        fill: #8d8d8d;
+    }
+    .widget-banner .item-btn:hover {
+        svg path {
+            fill: $color_light;
+        }
+    }
+    .footer-box .footer-logo {
+        .logo-dark {
+            display: none;
+        }
+        .logo-light {
+            display: block;
+        }
+    }
+    .fixed-header {
+        .header-control {
+            .input-group {
+                input.form-control::-webkit-input-placeholder,
+                textarea.form-control::-webkit-input-placeholder {
+                    color: #8d8d8d;
+                }
+            }
+        }
+    }
+    nav.template-main-menu>ul>li.mega-menu.mega-menu-col-2 ul.children:before, 
+    nav.template-main-menu>ul>li.mega-menu.mega-menu-col-2 ul.sub-menu:before,
+    nav.template-main-menu>ul>li ul.children:before, 
+    nav.template-main-menu>ul>li ul.sub-menu:before {
+        border-bottom: 10px solid #666;
+    }
+    #add_payment_method #payment ul.payment_methods, 
+    .woocommerce-cart #payment ul.payment_methods, 
+    .woocommerce-checkout #payment ul.payment_methods {
+        box-shadow: 0 0 20px 1px #161616;
+    }
+    .elementor-column-wrap.elementor-element-populated,
+    .elementor-section-wrap .elementor-section, 
+    .elementor-widget-wrap,
+    .product-breadcrumb,
+    .breadcrumbs-banner,
+    .why-choose-content,
+    .newsfeed-banner,
+    .button-slide,
+    .banner-apps,
+    .hero-banner {
+        background-color: transparent !important;
+        background-image: none !important;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .product-breadcrumb,
+    .breadcrumbs-banner,
+    .why-choose-content,
+    .newsfeed-banner,
+    .button-slide,
+    .banner-apps,
+    .hero-banner {
+        background-color: #242526 !important;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="password"]:focus,
+    input[type="search"]:focus,
+    input[type="number"]:focus,
+    input[type="tel"]:focus,
+    input[type="range"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="week"]:focus,
+    input[type="time"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="color"]:focus,
+    textarea:focus {
+      color: #fff;
+    }
+    .post-view .post-comment form .ac-reply-content textarea {
+        color: $color_dark;
+    }
+    #profile-details-section,
+    #basic-details-section {
+        h2 {
+            color: $color_light;
+        }
+    }
+}
+

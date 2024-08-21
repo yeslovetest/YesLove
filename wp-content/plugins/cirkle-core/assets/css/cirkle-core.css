@@ -1,0 +1,62 @@
+.blog-fluid-grid .blog-grid .item-img img {
+    max-width: none;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    width: calc(100% + 45px);
+    -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.edit-post-meta-boxes-area .postbox,
+div#cirkle_portfolio_info,
+div#cirkle_team_contact {
+    margin-bottom: 23px;
+}
+/* = Demo Import Style
+=======================================================*/
+@media (min-width: 1120px){
+	.ocdi__gl-item {
+	    width: calc(24.333% - 30px);
+	    margin: 0 30px 30px 0;
+        flex: 0 0 calc(24.33% - 30px);
+	}
+}
+.radiustheme-core_intro-text.vtdemo-one-click {
+    margin-top: 20px;
+}
+.postbox.vt-support-box.vt-error-box,
+.postbox.important-notes,
+.postbox.vt-support-box {
+    padding: 15px;
+}
+.ocdi__gl-item-container.js-ocdi-gl-item-container h3 {
+    margin-top: 30px;
+}
+a.nav-tab.vt-mode-switch {
+    background-color: transparent;
+}
+.ocdi__gl-item-image-container {
+    height: 320px;
+}
+.ocdi__intro-notice.notice.notice-warning.is-dismissible {
+    padding: 0.875rem;
+}
+.ocdi__gl-item-container {
+    margin-right: -30px;
+    margin-top: 3rem;
+}
+
+/* = Select 2 Style
+=======================================================*/
+.select2-container .select2-selection--single {
+    height: 35px !important;
+}
+.select2-container--classic .select2-selection--single .select2-selection__arrow {
+    height: 33px !important;
+}
+.select2-container--classic .select2-selection--single .select2-selection__rendered {
+    line-height: 32px !important;
+}
+.editor-post-featured-image {
+    
+}

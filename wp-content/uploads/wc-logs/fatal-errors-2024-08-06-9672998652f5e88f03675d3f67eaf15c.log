@@ -1,0 +1,66 @@
+2024-08-06T12:59:27+00:00 CRITICAL Uncaught TypeError: array_shift(): Argument #1 ($array) must be of type array, bool given in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php:1781
+Stack trace:
+#0 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php(1781): array_shift()
+#1 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid.php(2410): WPvivid_Backup_Item->get_remote()
+#2 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(324): WPvivid->init_download_page()
+#3 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/yeslovec/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/yeslovec/public_html/wp-admin/admin-ajax.php(188): do_action()
+#6 {main}
+  thrown in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php on line 1781
+
+2024-08-06T13:00:50+00:00 CRITICAL Uncaught TypeError: array_shift(): Argument #1 ($array) must be of type array, bool given in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php:1781
+Stack trace:
+#0 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php(1781): array_shift()
+#1 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid.php(2410): WPvivid_Backup_Item->get_remote()
+#2 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(324): WPvivid->init_download_page()
+#3 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/yeslovec/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/yeslovec/public_html/wp-admin/admin-ajax.php(188): do_action()
+#6 {main}
+  thrown in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php on line 1781
+
+2024-08-06T13:01:08+00:00 CRITICAL Uncaught TypeError: array_shift(): Argument #1 ($array) must be of type array, bool given in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php:1781
+Stack trace:
+#0 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php(1781): array_shift()
+#1 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid.php(2410): WPvivid_Backup_Item->get_remote()
+#2 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(324): WPvivid->init_download_page()
+#3 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/yeslovec/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/yeslovec/public_html/wp-admin/admin-ajax.php(188): do_action()
+#6 {main}
+  thrown in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php on line 1781
+
+2024-08-06T13:06:31+00:00 CRITICAL Uncaught TypeError: array_shift(): Argument #1 ($array) must be of type array, bool given in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php:1781
+Stack trace:
+#0 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php(1781): array_shift()
+#1 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid.php(2410): WPvivid_Backup_Item->get_remote()
+#2 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(324): WPvivid->init_download_page()
+#3 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/yeslovec/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/yeslovec/public_html/wp-admin/admin-ajax.php(188): do_action()
+#6 {main}
+  thrown in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php on line 1781
+
+2024-08-06T13:30:40+00:00 CRITICAL Uncaught TypeError: array_shift(): Argument #1 ($array) must be of type array, bool given in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php:1781
+Stack trace:
+#0 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php(1781): array_shift()
+#1 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid.php(2410): WPvivid_Backup_Item->get_remote()
+#2 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(324): WPvivid->init_download_page()
+#3 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/yeslovec/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/yeslovec/public_html/wp-admin/admin-ajax.php(188): do_action()
+#6 {main}
+  thrown in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php on line 1781
+
+2024-08-06T13:31:31+00:00 CRITICAL Uncaught TypeError: array_shift(): Argument #1 ($array) must be of type array, bool given in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php:1781
+Stack trace:
+#0 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php(1781): array_shift()
+#1 /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid.php(2410): WPvivid_Backup_Item->get_remote()
+#2 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(324): WPvivid->init_download_page()
+#3 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/yeslovec/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/yeslovec/public_html/wp-admin/admin-ajax.php(188): do_action()
+#6 {main}
+  thrown in /home/yeslovec/public_html/wp-content/plugins/wpvivid-backuprestore/includes/class-wpvivid-backup.php on line 1781
+

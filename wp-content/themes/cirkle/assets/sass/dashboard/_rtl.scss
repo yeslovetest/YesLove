@@ -1,0 +1,36 @@
+/*============================================================================
+29. RTL
+==============================================================================*/
+html[dir="rtl"] {
+	.post-view .post-footer>ul>li i {
+	    margin-left: 5px;
+	}
+	.blog-grid .blog-box .blog-content .entry-meta li i {
+	    margin-left: 10px;
+	}
+	.tooltip .arrow {
+	    top: 8px !important;
+	    left: 1px;
+	    right: auto;
+	    transform: rotate(180deg);
+	}
+	.bs-tooltip-auto[x-placement^=left] .arrow::before, 
+	.bs-tooltip-left .arrow::before {
+	    border-left-color: $color_primary;
+	}
+	.mpp-remote-add-media-row {
+	    padding-left: 90px;
+	}
+	.reaction-options {
+	    left: auto !important;
+	    right: auto !important;
+	}
+	.mfp-arrow-right {
+	    right: 0;
+	    left: auto;
+	}
+	.post-view .post-footer .post-share .share-list li a:before {
+		right: auto;
+	    left: 5px;
+	}
+}

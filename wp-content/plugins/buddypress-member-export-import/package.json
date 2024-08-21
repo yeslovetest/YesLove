@@ -1,0 +1,19 @@
+{
+  "name": "bp-xprofile-export-import",
+  "version": "0.1.0",
+  "url": "https://github.com/vapvarun/buddypress-member-export-import",
+  "license": "GPL-2.0+",
+  "description": "Members export and import for BuddyPress and WordPress",
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-wp-i18n": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vapvarun/buddypress-member-export-import"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "^3.5.2"
+  }
+}

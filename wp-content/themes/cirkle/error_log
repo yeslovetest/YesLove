@@ -1,0 +1,4 @@
+[29-Jun-2024 23:26:52 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function radiustheme\cirkle\get_header() in /home/yeslovec/public_html/wp-content/themes/cirkle/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/yeslovec/public_html/wp-content/themes/cirkle/index.php on line 11

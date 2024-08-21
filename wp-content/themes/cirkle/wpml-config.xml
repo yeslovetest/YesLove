@@ -1,0 +1,21 @@
+<wpml-config>
+    <admin-texts>
+        <key name="cirkle">
+            <key name="hlb_txt" />
+            <key name="copyright_text" />
+            <key name="blog_breadcrumb_title" />
+            <key name="meta_react_text" />
+            <key name="related_post_title" />
+            <key name="member_banner_title" />
+            <key name="member_banner_desc" />
+            <key name="groups_banner_title" />
+            <key name="newsfeed_banner_title" />
+            <key name="newsfeed_banner_desc" />
+            <key name="error_page_banner" />
+            <key name="error_page_title" />
+            <key name="error_page_subtitle" />
+            <key name="error_desc_text" />
+            <key name="error_buttontext" />
+        </key>
+    </admin-texts>
+</wpml-config>

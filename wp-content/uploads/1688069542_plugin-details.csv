@@ -1,0 +1,44 @@
+S.No,"Plugin Name",Description,Author,Active/Inactive,"Current Version","Update Available","New Version"
+1,"Akismet Anti-Spam: Spam Protection","Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Akismet anti spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.","Automattic - Anti Spam Team",Inactive,5.2,No,-
+2,bbPress,"bbPress is forum software with a twist from the creators of WordPress.","The bbPress Contributors",Active,2.6.9,No,-
+3,"Better Messages","Realtime private messaging system for WordPress",WordPlus,Active,2.1.18,No,-
+4,"Breadcrumb NavXT","Adds a breadcrumb navigation showing the visitor&#39;s path to their current location. For details on how to use this plugin visit <a href=""http://mtekk.us/code/breadcrumb-navxt/"">Breadcrumb NavXT</a>.","John Havlik",Inactive,7.2.0,No,-
+5,BuddyPress,"BuddyPress adds community features to WordPress. Member Profiles, Activity Streams, Direct Messaging, Notifications, and more!","The BuddyPress Community",Active,11.2.0,No,-
+6,"Cirkle Core","Cirkle Core Plugin for Cirkle Theme",RadiusTheme,Active,1.0.8,No,-
+7,"Content Control","Restrict content to logged in/out users or specific user roles. Restrict access to certain parts of a page/post. Control the visibility of widgets.","Code Atlantic",Active,1.1.10,No,-
+8,"Custom BuddyPress Templates","Overrides BuddyPress and template-parts templates","Robert June",Active,1.0.1,No,-
+9,Duplicator,"Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",Duplicator,Inactive,1.5.5,No,-
+10,Elementor,"The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",Elementor.com,Active,3.14.1,No,-
+11,"Elementor Pro","Elevate your designs and unlock the full power of Elementor. Gain access to dozens of Pro widgets and kits, Theme Builder, Pop Ups, Forms and WooCommerce building capabilities.",Elementor.com,Active,3.13.2,Yes,3.14.1
+12,"Embed Plus YouTube WordPress Plugin","YouTube Embed Plugin. Embed a YouTube channel gallery, playlist gallery, YouTube live stream. Lite embeds with defer JavaScript and facade options","Embed Plus YouTube Plugin Team",Inactive,14.1.6.3,No,-
+13,"Event Tickets","Event Tickets allows you to sell basic tickets and collect RSVPs from any post, page, or event.","The Events Calendar",Inactive,5.6.1.2,Yes,5.6.2
+14,"Fluent Forms","Contact Form By Fluent Forms is the advanced Contact form plugin with drag and drop, multi column supported form builder plugin","Contact Form - WPManageNinja LLC",Inactive,5.0.4,Yes,5.0.6
+15,GamiPress,"The most flexible and powerful gamification system for WordPress.",GamiPress,Inactive,2.6.1,No,-
+16,"GamiPress - BuddyPress integration","Connect GamiPress with BuddyPress.",GamiPress,Inactive,1.6.1,No,-
+17,"Hide Admin Bar Based on User Roles","This plugin is very useful to hide admin bar based on selected user roles and user capabilities.","Ankit Panchal",Inactive,3.5.5,No,-
+18,Intercom,"Official <a href=""https://www.intercom.io"">Intercom</a> support for WordPress.",Intercom,Inactive,2.6.5,No,-
+19,"Loco Translate","Translate themes and plugins directly in WordPress","Tim Whitlock",Inactive,2.6.4,No,-
+20,MediaPress,"MediaPress is the most powerful media plugin for BuddyPress . It allows uploading images(photos), videos, audios, documents",BuddyDev,Active,1.5.6,No,-
+21,"MemberPress Pro","The membership plugin that makes it easy to accept payments for access to your content and digital products.","Caseproof, LLC",Active,1.11.0,No,-
+22,"Printful Integration for WooCommerce","Connects your Printful account with WooCommerce.",Printful,Active,2.2.2,No,-
+23,"RadiusTheme Reactions",,RadiusTheme,Active,1.0.4,No,-
+24,"RT Demo Importer","Uninstall this plugin after you've finished importing demo contents",RadiusTheme,Inactive,5.0.0,No,-
+25,"RT Framework","Theme Framework by RadiusTheme",RadiusTheme,Active,2.8,No,-
+26,"Simple Local Avatars","Adds an avatar upload field to user profiles. Generates requested sizes on demand, just like Gravatar! Simple and lightweight.",10up,Inactive,2.7.5,No,-
+27,"String Locator","Scan through theme and plugin files looking for text strings",InstaWP,Active,2.6.1,No,-
+28,"The Events Calendar","The Events Calendar is a carefully crafted, extensible plugin that lets you easily share your events. Beautiful. Solid. Awesome.","The Events Calendar",Active,6.1.2.2,No,-
+29,"The Events Calendar: Virtual Events","Virtual Events is an add-on to The Events Calendar suite of products that optimizes your calendar, tickets, and email notifications for virtual events.","The Events Calendar",Active,1.7.0,No,-
+30,"The Events Calendar Pro","The Events Calendar Pro, a premium add-on to the open source The Events Calendar plugin (required), enables recurring events, custom attributes, venue pages, new widgets and a host of other premium features.","The Events Calendar",Inactive,6.0.12.1,No,-
+31,"Upload Quota per User","Limits the total space a user can use uploading files and changes single file upload size.","Cristian Dinu-Tănase, Daniyal Ahmed",Active,1.3,No,-
+32,"Verified Member for BuddyPress","This plugins allows admins to add a ""Verified"" badge for specific members.",Themosaurus,Active,1.2.6,No,-
+33,"Wbcom Designs - BuddyPress Member Export Import","Buddypress Member Export Import plugin bring you feature to export Buddypress members and x-profile fields data into CSV file and import buddypress members from CSV file.","Wbcom Designs",Inactive,1.5.0,No,-
+34,"What The File","What The File adds an option to your toolbar showing what file and template parts are used to display the page you’re currently viewing. You can click the file name to directly edit it through the theme editor. Supports BuddyPress and Roots Theme. More information can be found at the <a href='http://wordpress.org/extend/plugins/what-the-file/'>WordPress plugin page</a>.",Never5,Inactive,1.6.0,No,-
+35,"White Label","White Label WordPress and make life easier for your clients.",WhiteWP.com,Inactive,2.8.1,No,-
+36,WooCommerce,"An eCommerce toolkit that helps you sell anything. Beautifully.",Automattic,Active,7.8.1,No,-
+37,"WPCode Lite","Easily add code snippets in WordPress. Insert scripts to the header and footer, add PHP code snippets with conditional logic, insert ads pixel, custom content, and more.",WPCode,Inactive,2.0.13,No,-
+38,"WP File Manager","Manage your WP files.",mndpsingh287,Inactive,7.1.9,No,-
+39,"WPS Hide Login","Protect your website by changing the login URL and preventing access to wp-login.php page and wp-admin directory while not logged-in","WPServeur, NicolasKulka, wpformation",Inactive,1.9.8,No,-
+40,"WP User Frontend","Create, edit, delete, manages your post, pages or custom post types from frontend. Create registration forms, frontend profile and more...",weDevs,Inactive,3.6.5,No,-
+41,"YITH WooCommerce Quick View","The <code><strong>YITH WooCommerce Quick View</strong></code> plugin allows your customers to have a quick look about products. <a href=""https://yithemes.com/"" target=""_blank"">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>.",YITH,Inactive,1.28.1,No,-
+42,"YITH WooCommerce Wishlist","<code><strong>YITH WooCommerce Wishlist</strong></code> gives your users the possibility to create, fill, manage and share their wishlists allowing you to analyze their interests and needs to improve your marketing strategies. <a href=""https://yithemes.com/"" target=""_blank"">Get more plugins for your e-commerce on <strong>YITH</strong></a>",YITH,Inactive,3.22.0,No,-
+43,Youzify,"Youzify is a WordPress Community, Social Network and User Profiles management solution with a Secure Membership System, Front-end Account Settings, Powerful Admin Panel, Many Header Styles, +20 Profile Widgets, 16 Color Schemes, Advanced Author Widgets, Fully Responsive Design, Extremely Customizable and a Bunch of Unlimited Features provided by KaineLabs.",KaineLabs,Inactive,3.3.4,Yes,1.2.2

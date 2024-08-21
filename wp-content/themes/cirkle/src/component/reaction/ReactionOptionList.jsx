@@ -1,0 +1,32 @@
+import React from 'react';
+
+import ReactionOption from './ReactionOption';
+
+class ReactionOptionList extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return (
+            <div ref={this.props.forwardedRef} className={`reaction-options ${this.props.modifiers || ''}`}>
+                {
+                    this.props.data.map((reaction) => {
+                        return (
+                            <ReactionOption key={reaction.id} data={reaction}
+                                            createUserReaction={this.props.createUserReaction}/>
+                        );
+                    })
+                }
+            </div>
+        );
+    }
+}
+
+const ReactionOptionListForwardRef = React.forwardRef((props, ref) => {
+    return (
+        <ReactionOptionList {...props} forwardedRef={ref}/>
+    )
+});
+
+export default ReactionOptionListForwardRef;

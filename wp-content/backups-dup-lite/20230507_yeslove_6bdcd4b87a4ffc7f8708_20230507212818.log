@@ -1,0 +1,73 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: May 7, 2023 9:29 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.3.1
+WORDPRESS:	6.2
+PHP INFO:	8.1.18 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 105MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20230507_yeslove_6bdcd4b87a4ffc7f8708_20230507212818_database.sql
+SQL FILE SIZE: 9.19MB (9636796)
+SQL FILE TIME: 2023-05-07 21:29:42
+SQL RUNTIME: 1.29 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/yeslovec/public_html
+ARCHIVE FILE: 20230507_yeslove_6bdcd4b87a4ffc7f8708_20230507212818_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	729.88MB
+STATS:	Dirs 8,705 | Files 46,245
+SQL ADDED: 20230507_yeslove_6bdcd4b87a4ffc7f8708_20230507212818_database.sql
+ZipArchive Object
+(
+    [lastId] => 54949
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 54950
+    [filename] => /home/yeslovec/public_html/wp-content/backups-dup-lite/tmp/20230507_yeslove_6bdcd4b87a4ffc7f8708_20230507212818_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 54949
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 324.06MB
+ARCHIVE RUNTIME: 188.84 sec.
+MEMORY STACK: 139.68MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 9.19MB
+INSTALLER FILE: 73.35KB
+ARCHIVE FILE: 326.7MB 
+EXPECTED FILE/DIRECTORY COUNT: 54,950
+ACTUAL FILE/DIRECTORY COUNT: 54,949
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 260.61 sec.
+PEAK PHP MEMORY USED: 149.68MB
+DONE PROCESSING => 20230507_yeslove May 7, 2023 9:34 pm
+

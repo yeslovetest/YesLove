@@ -1,0 +1,17 @@
+2024-08-02T11:11:09+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, string given in /home/yeslovec/public_html/wp-content/plugins/capability-manager-enhanced/includes/admin-load.php:684
+Stack trace:
+#0 /home/yeslovec/public_html/wp-content/plugins/capability-manager-enhanced/includes/admin-load.php(684): array_filter()
+#1 [internal function]: PP_Capabilities_Admin_UI->{closure}()
+#2 /home/yeslovec/public_html/wp-content/plugins/capability-manager-enhanced/includes/admin-load.php(687): array_map()
+#3 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(324): PP_Capabilities_Admin_UI->add_nav_menu_indicator()
+#4 /home/yeslovec/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/yeslovec/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/yeslovec/public_html/wp-admin/includes/class-walker-nav-menu-edit.php(253): do_action()
+#7 /home/yeslovec/public_html/wp-includes/class-wp-walker.php(147): Walker_Nav_Menu_Edit->start_el()
+#8 /home/yeslovec/public_html/wp-includes/class-wp-walker.php(247): Walker->display_element()
+#9 /home/yeslovec/public_html/wp-includes/nav-menu-template.php(616): Walker->walk()
+#10 /home/yeslovec/public_html/wp-admin/includes/nav-menu.php(1315): walk_nav_menu_tree()
+#11 /home/yeslovec/public_html/wp-admin/nav-menus.php(667): wp_get_nav_menu_to_edit()
+#12 {main}
+  thrown in /home/yeslovec/public_html/wp-content/plugins/capability-manager-enhanced/includes/admin-load.php on line 684
+

@@ -1,0 +1,58 @@
+/*============================================================================
+17. Error
+==============================================================================*/
+.error-404-wrap {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-color: #eff4fb;
+    .item-paragraph {
+        max-width: 550px;
+        margin: 0 auto 40px;
+    }
+    .search-form {
+        max-width: 600px;
+        position: relative;
+        margin: 0 auto 30px;
+        .form-control {
+            height: 45px;
+            padding: 5px 65px 5px 20px;
+            &:focus {
+                outline: none;
+                box-shadow: unset;
+                border-color: #eaeaea;
+            }
+        }
+        .btn.btn-custom {
+            top: 0;
+            right: 0;
+            color: #000000;
+            font-weight: 700;
+            padding: 9px 20px;
+            border-radius: 4px;
+            position: absolute;
+            border: 1px solid #eaeaea;
+            background-color: #ffffff;
+            &:focus {
+                outline: none;
+                box-shadow: unset;
+            }
+            &:hover {
+                color: #ffffff;
+                border-color: $color_secondary;
+                background-color: $color_secondary;
+            }
+        }
+    }
+    .btn-text {
+        color: #fff;
+        border: none;
+        font-weight: 700;
+        padding: 7px 25px;
+        border-radius: 4px;
+        background-color: $color_secondary;
+        transition: all .3s ease-in-out;
+        &:hover {
+            background-color: $color_primary;
+        }
+    }
+}

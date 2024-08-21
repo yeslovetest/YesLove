@@ -1,0 +1,145 @@
+/*============================================================================
+07. Blog
+==============================================================================*/
+/*=============================================
+7.1 Blog
+===============================================*/
+section.blog-post-grid {
+    margin-top: 120px; 
+    margin-bottom: 100px;
+    @media only screen and (max-width: 767px) {
+        margin-top: 100px; 
+        margin-bottom: 80px;  
+    }
+    .block-box {
+        margin-bottom: 30px;
+    }
+}
+.no-banner {
+    .blog-details-wrap-layout,
+    section.blog-post-grid {
+        margin-top: 240px; 
+    }    
+}
+.blog-grid {
+    .blog-box {
+        max-width: 570px;
+        margin: 0 auto 30px;
+        .blog-img {
+            position: relative;
+            margin-bottom: 18px;
+            a {
+                display: block;
+                position: relative;
+                border-radius: 8px;
+                overflow: hidden;
+                &:after {
+                    content: "";
+                    height: 60%;
+                    width: 100%;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+                    border-radius: 0 0 8px 8px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+            img {
+                border-radius: 8px;
+                transform: scale(1);
+                transition: all 0.3s ease-in-out;
+            }
+            .blog-date {
+                left: 0;
+                bottom: 0;
+                font-size: 14px;
+                position: absolute;
+                color: $color_light;
+                background-color: $color_primary;
+                border-radius: 0 5px 0 5px;
+                font-weight: 700;
+                padding: 5px 16px;
+                i {
+                    margin-right: 8px;
+                }
+            }
+        }
+        .blog-content {
+            .blog-title {
+                margin-bottom: 14px;
+                font-size: 22px;
+                line-height: 32px;
+                @media only screen and (max-width: 991px) {
+                    font-size: 20px;     
+                }
+                a {
+                    color: $color_black;
+                    &:hover {
+                        color: $color_secondary;
+                    }
+                }
+            }
+            .entry-meta {
+                padding-left: 0;
+                li {
+                    color: #71728c;
+                    font-size: 14px;
+                    position: relative;
+                    display: inline-block;
+                    &:last-child {
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    &:after {
+                        content: "/";
+                        padding: 0 10px 0 12px;
+                    }
+                    a {
+                        color: #71728c;
+                        &:hover {
+                            color: $color_primary;
+                        }
+                        span.bp-verified-badge {
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                    i {
+                       color: #bcbcc7;
+                       margin-right: 10px;
+                    }
+                }
+            }
+        }
+        &:hover {
+            .blog-img {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+
+/*=============================================
+7.2 Blog Details
+===============================================*/
+section.blog-details-wrap-layout {
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    @media only screen and (max-width: 767px) {
+        margin-top: 80px; 
+        margin-bottom: 65px;                     
+    }
+}
+.page-content-area {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    @media only screen and (max-width: 767px) {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('content-control-components', 'content-control-core-data', 'content-control-icons', 'content-control-utils', 'react', 'wp-block-editor', 'wp-blocks', 'wp-components', 'wp-compose', 'wp-dom-ready', 'wp-element', 'wp-hooks', 'wp-i18n', 'wp-primitives'), 'version' => 'f444943f6cdab59173af');
