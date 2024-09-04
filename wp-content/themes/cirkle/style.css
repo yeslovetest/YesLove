@@ -13,4 +13,7 @@ Requires PHP: 7.0
 License:   	  Envato split License
 License URI:  https://themeforest.net/licenses/terms/regular
 */
-
+/* Test change for GitHub Desktop */
+body {
+    background-color: #f0f0f0;
+}
