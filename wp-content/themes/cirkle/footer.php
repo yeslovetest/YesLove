@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         statusBoxClient.placeholder = "Have you ever been in a romantic relationship affected by a mood or a personality disorder? Why not share your story to help others? Have a question? Ask!";
     }
 });
+	<!-- Test change for GitHub -->
 </script>
 </body>
 </html>
